@@ -1,0 +1,8 @@
+- Take monolingual corpus of english and french (at least 10Million sentences, need not be parallel)
+- Use Byte pair encoding to split words to subwords
+- Train Glove/word2vec/any other embedding scheme ( all of them ) [W_e and W_f as embedding spaces of english and french respectively]
+- Get a dictionary En-Fr [Dict_enfr]
+- Read about billingual embedding space and use one published by Anoop Kunchkuttan et al. TACL 2019 to get billingual embedding for Dict_enfr
+- Now that you have billingual mapping do the experiment as mentioned in your interim report, If any doubt drop a mail, kindly come and meet.
+
+Do above experiment for https://object.pouta.csc.fi/OPUS-Tanzil/v1/moses/en-hi.txt.zip [if i recollect correctly it has some 'real' sentence boundary issues part of sentence in one sentence and other in next one]
