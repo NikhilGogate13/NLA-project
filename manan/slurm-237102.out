@@ -1,0 +1,5 @@
+data/wiki.en.vec
+Traceback (most recent call last):
+  File "supervised.py", line 66, in <module>
+    assert os.path.isfile(params.src_emb)
+AssertionError
